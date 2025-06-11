@@ -6,6 +6,7 @@ import Main from "@/Components/Main";
 import AboutMe from "@/Components/About"
 import Skills from "@/Components/Skill";
 import Projects from "@/Components/Project";
+import Contact from "@/Components/Contact";
 export default function Home() {
   return (<>
     <motion.div className="w-screen h-screen bg-black flex justify-center items-center" initial={{visibility:"visible"}} animate={{display:"none", transition:{duration:2,ease:"easeInOut"}}}>
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutMe/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </motion.div>
   </>);
 }

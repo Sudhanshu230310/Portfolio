@@ -3,8 +3,8 @@ import Cursor from "@/Icons/cursor";
 import {motion} from "motion/react";
 export default function AboutMe(){
     return<>
-        < motion.div id="about" className="bg-black w-screen min-h-screen px-28 flex flex-col justify-center items-center gap-20 lg:gap-0">
-            <div className="bg-gray-800 rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-md h-[600px] mt-20">
+        < motion.div id="about" className="bg-black w-screen min-h-screen sm:px-28 flex px-36 flex-col justify-center items-center gap-20 lg:gap-0">
+            <div className="bg-gray-800 rounded-3xl w-xs xl:w-7xl md:w-3xl sm:w-xl xs:w-sm h-[600px] mt-20">
                 <div className="text-white pl-12 pt-12 md:text-4xl text-3xl font-bold">
                     About
                 </div>
