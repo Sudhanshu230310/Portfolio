@@ -11,6 +11,7 @@ import Nextjs from "@/Icons/Nextjs"
 import NodejsLogo from "@/Icons/Nodejs"
 import PostgressLogo from "@/Icons/Postgress"
 import ReactLogo from "@/Icons/React"
+import TurboIcon from "@/Icons/Turbo"
 import {easeIn, motion} from "motion/react"
 
 
@@ -98,6 +99,12 @@ export default function Skills(){
                             <FigmaLogo/>
                         </div>
                         <div className="text-white pt-1">Figma</div>
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="border rounded-full bg-white w-24 h-24 flex justify-center items-center">
+                            <TurboIcon/>
+                        </div>
+                        <div className="text-white pt-1">Turborepo</div>
                     </div>
                         
                 </div>
