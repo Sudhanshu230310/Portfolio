@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "motion/react"
-import Image from "next/image"
+
 
 export default function Main() {
     return (
@@ -17,25 +17,25 @@ export default function Main() {
                     </div>
                     <motion.div animate={{ y: [0, -16, 0], transition: { repeat: Infinity, repeatType: "reverse", duration: 3, ease: "linear" } }} className="text-white md:w-72 md:h-72 rounded-full overflow-hidden w-56 h-56 justify-center items-center shadow-gray-600 shadow-lg border border-gray-700 md:mt-20 translate-y-12 md:-translate-y-4">
                         {/* <Person /> */}
-                        <img src="/Portfolio/profile3.jpeg" alt="Profile Image" width={300} height={300} className="md:-translate-y-24 -translate-y-16 w-full h-auto" />
+                        <img src="/Portfolio/profile3.jpeg" alt="Profile img" width={300} height={300} className="md:-translate-y-24 -translate-y-16 w-full h-auto" />
                     </motion.div>
                 </div>
 
                 <motion.div animate={{ y: [0, -16, 0], transition: { repeat: Infinity, repeatType: "reverse", duration: 3, ease: "linear" } }} className="xl:pl-10 xl:pt-0 xl:flex xl:justify-items-start xl:gap-96 xl:h-44 hidden mt-16">
                     <div className="w-10">
-                        <Image src="/vscode.svg" alt="VS Code" width={40} height={40} className="w-full h-auto" />
+                        <img src="/Portfolio/vscode.svg" alt="VS Code" width={40} height={40} className="w-full h-auto" />
                     </div>
                     <div className="w-10 -translate-y-8">
-                        <Image src="/ts.svg" alt="TypeScript" width={40} height={40} className="w-full h-auto" />
+                        <img src="/Portfolio/ts.svg" alt="TypeScript" width={40} height={40} className="w-full h-auto" />
                     </div>
                 </motion.div>
 
                 <motion.div animate={{ y: [0, -16, 0], transition: { repeat: Infinity, repeatType: "reverse", duration: 3, ease: "linear" } }} className="xl:pl-10 xl:flex xl:justify-items-start xl:gap-96 hidden">
                     <div className="w-10">
-                        <Image src="/react.svg" alt="React" width={40} height={40} className="w-full h-auto" />
+                        <img src="/Portfolio/react.svg" alt="React" width={40} height={40} className="w-full h-auto" />
                     </div>
                     <div className="w-12">
-                        <Image src="/docker.svg" alt="Docker" width={48} height={48} className="w-full h-auto" />
+                        <img src="/Portfolio/docker.svg" alt="Docker" width={48} height={48} className="w-full h-auto" />
                     </div>
                 </motion.div>
             </motion.div>
