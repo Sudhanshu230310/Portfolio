@@ -1,5 +1,4 @@
 import CloseLogo from "@/Icons/Close";
-import { ReactElement } from "react";
 import { Link } from "react-scroll";
 
 export default function SideBar({close,open}:{close:React.Dispatch<React.SetStateAction<boolean>>,open:boolean}){

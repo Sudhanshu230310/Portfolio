@@ -12,7 +12,7 @@ import NodejsLogo from "@/Icons/Nodejs"
 import PostgressLogo from "@/Icons/Postgress"
 import ReactLogo from "@/Icons/React"
 import TurboIcon from "@/Icons/Turbo"
-import {easeIn, motion} from "motion/react"
+import { motion} from "motion/react"
 
 
 // bg-gray-800 rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-sm h-[600px] mt-20
