@@ -1,7 +1,6 @@
 import BackendIcon from "@/Icons/Backend";
 import Cursor from "@/Icons/cursor";
 import { motion } from "motion/react";
-import Image from "next/image";
 
 export default function AboutMe() {
     return (
@@ -17,7 +16,7 @@ export default function AboutMe() {
                             animate={{ y: 0 }}
                             className="md:size-80 hidden md:flex md:flex-col justify-center"
                         >
-                            <Image src="/dev5.png" alt="Developer" width={300} height={300} className="w-full h-auto" />
+                            <img src="/Portfolio/dev5.png" alt="Developer" width={300} height={300} className="w-full h-auto" />
                         </motion.div>
 
                         <div className="flex flex-col gap-10 text-white md:text-xl overflow-auto">
@@ -37,7 +36,7 @@ export default function AboutMe() {
                             </div>
                             <div className="cursor-pointer flex justify-start items-center gap-5">
                                 <div className="md:size-8 size-12">
-                                    <Image src="/docker2.svg" alt="Docker" width={50} height={50} className="w-full h-auto" />
+                                    <img src="/Portfolio/docker2.svg" alt="Docker" width={50} height={50} className="w-full h-auto" />
                                 </div>
                                 <div>
                                     <div className="font-bold"> DevOps</div>

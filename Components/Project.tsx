@@ -1,5 +1,4 @@
 import { motion } from "motion/react"
-import Image from "next/image"
 
 export default function Projects() {
     return (
@@ -15,9 +14,9 @@ export default function Projects() {
                         {/* Project 1 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
                             <div className="w-full">
-                                <Image
+                                <img
                                     className="rounded-2xl"
-                                    src="/Checkers.jpg"
+                                    src="/Portfolio/Checkers.jpg"
                                     alt="Checkers Game"
                                     width={500}
                                     height={300}
@@ -37,9 +36,9 @@ export default function Projects() {
                         {/* Project 2 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
                             <div className="w-full">
-                                <Image
+                                <img
                                     className="rounded-2xl"
-                                    src="/Hospital.avif"
+                                    src="/Portfolio/Hospital.avif"
                                     alt="Hospital Management"
                                     width={500}
                                     height={300}
@@ -61,9 +60,9 @@ export default function Projects() {
                         {/* Project 3 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
                             <div className="w-full">
-                                <Image
+                                <img
                                     className="rounded-2xl"
-                                    src="/kd.png"
+                                    src="/Portfolio/kd.png"
                                     alt="KD Tree Project"
                                     width={500}
                                     height={300}
