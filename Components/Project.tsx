@@ -4,16 +4,16 @@ export default function Projects() {
     return (
         <>
             <motion.div id="project" className="bg-black w-screen min-h-screen sm:px-28 flex flex-col justify-center items-center gap-20 lg:gap-0">
-                <div className="h-[650px] bg-gray-800 rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-xs mt-12 flex flex-col px-4 py-4">
-                    <div className="xs:text-4xl text-3xl font-bold text-white pl-4 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
-                        Projects
+                <div className="h-[650px] rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-xs mt-12 flex flex-col px-4 py-4">
+                    <div className="sm:text-5xl text-4xl font-bold text-white pl-2 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
+                        <div className="flex gap-2"><div className="text-blue-500">My</div><div>Projects</div></div>
                         <div className="lg:hidden text-sm">(right scroll for more)</div>
                     </div>
                     <div className="w-full h-full lg:grid lg:grid-cols-3 flex lg:gap-6 gap-2 text-white overflow-auto">
 
                         {/* Project 1 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
-                            <div className="w-full">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
+                            <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
                                     src="/Portfolio/Checkers.jpg"
@@ -21,7 +21,7 @@ export default function Projects() {
                                     width={500}
                                     height={300}
                                 />
-                            </div>
+                            </motion.div>
                             <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">Checkers Game</div>
                             <div className="text-md pt-1 px-1">
                                 This project is a complete software simulation of the classic Checkers (or Draughts) board game, developed as part of a Data Structures and Algorithms (DSA) course. It aims to merge the theoretical foundations of DSA with a practical, interactive application. The primary focus is on designing the game engine using efficient data structures and algorithms to handle the rules of the game, player interaction, and game state management. This project enhances understanding of DSA concepts through real-world implementation and provides a robust foundation for further enhancements such as AI opponents or GUI development.
@@ -34,7 +34,7 @@ export default function Projects() {
                         </div>
 
                         {/* Project 2 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
                             <div className="w-full">
                                 <img
                                     className="rounded-2xl"
@@ -58,7 +58,7 @@ export default function Projects() {
                         </div>
 
                         {/* Project 3 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-black shrink-0 flex flex-col overflow-auto">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
                             <div className="w-full">
                                 <img
                                     className="rounded-2xl"

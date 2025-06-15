@@ -18,10 +18,10 @@ import { motion} from "motion/react"
 // bg-gray-800 rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-sm h-[600px] mt-20
 export default function Skills(){
     return<>
-        < motion.div id="skill" className="bg-black w-screen min-h-screen pt-6 sm:px-28 flex flex-col justify-center items-center gap-20 lg:gap-0">
-            <div className=" h-[650px] bg-gray-800 rounded-3xl xl:w-7xl md:w-3xl sm:w-xl xs:w-sm w-xs mt-12 overflow-y-auto overscroll"> 
-                <div className="md:text-4xl text-3xl font-bold text-white pl-12 pt-12 pb-10">Skills</div>
-                <div className="flex sm:justify-start justify-center gap-x-10 sm:gap-x-28 sm:gap-y-10 gap-y-6 sm:pl-20 xs:text-xl text-lg flex-wrap pb-4 ">
+        < motion.div id="skill" className=" w-screen min-h-screen pt-10 sm:px-28 flex flex-col justify-center items-center sm:items-start lg:gap-0 bg-black">
+            <div className="md:text-5xl text-4xl font-bold text-white mt-20 flex gap-2 sm:pl-12 bg-black"><div className="text-blue-500">My</div><div>Skills</div></div>
+            <div className=" h-[650px] rounded-3xl xl:w-7xl md:w-3xl sm:w-xl xs:w-sm w-xs mt-6 pt-6 overflow-y-auto overscroll bg-black"> 
+                <div className="flex sm:justify-start justify-center gap-x-10 sm:gap-x-28 sm:gap-y-10 gap-y-6 sm:pl-12 xs:text-xl text-lg flex-wrap pb-4 ">
                     <motion.div className="flex flex-col justify-center items-center">
                         <div className="border rounded-full bg-white w-24 h-24 flex justify-center items-center">
                             <HtmlLogo/>
