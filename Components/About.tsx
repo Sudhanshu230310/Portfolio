@@ -3,13 +3,14 @@ import Cursor from "@/Icons/cursor";
 import { motion } from "motion/react";
 
 export default function AboutMe() {
+    
     return (
         <>
             <motion.div id="about" className="bg-black w-screen min-h-screen sm:px-28 flex px-36 flex-col justify-center items-center gap-20 lg:gap-0">
-                <div className=" rounded-3xl w-xs xl:w-7xl md:w-3xl sm:w-xl xs:w-sm h-[600px] mt-20">
-                    <div className="text-white pl-20 pt-12 md:text-5xl text-4xl font-bold flex gap-2">
+                <div className=" rounded-3xl w-xs xl:w-7xl md:w-3xl sm:w-xl xs:w-sm h-[600px]">
+                    <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="text-white pl-12 pt-12 md:text-5xl text-4xl font-bold flex gap-2">
                         <div>About </div><div className="text-blue-500">Me</div>
-                    </div>
+                    </motion.div>
                     <div className="flex justify-between items-center mt-10 px-12 gap-4">
                         <motion.div
                             whileHover={{ y: [30, -30, 30], transition: { repeat: Infinity, repeatType: "reverse", duration: 2, ease: "easeInOut" } }}

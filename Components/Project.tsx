@@ -5,10 +5,10 @@ export default function Projects() {
         <>
             <motion.div id="project" className="bg-black w-screen min-h-screen sm:px-28 flex flex-col justify-center items-center gap-20 lg:gap-0">
                 <div className="h-[650px] rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-xs mt-12 flex flex-col px-4 py-4">
-                    <div className="sm:text-5xl text-4xl font-bold text-white pl-2 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
+                    <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="sm:text-5xl text-4xl font-bold text-white pl-2 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
                         <div className="flex gap-2"><div className="text-blue-500">My</div><div>Projects</div></div>
                         <div className="lg:hidden text-sm">(right scroll for more)</div>
-                    </div>
+                    </motion.div>
                     <div className="w-full h-full lg:grid lg:grid-cols-3 flex lg:gap-6 gap-2 text-white overflow-auto">
 
                         {/* Project 1 */}
