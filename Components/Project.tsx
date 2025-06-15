@@ -35,7 +35,7 @@ export default function Projects() {
 
                         {/* Project 2 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
-                            <div className="w-full">
+                            <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
                                     src="/Portfolio/Hospital.avif"
@@ -43,7 +43,7 @@ export default function Projects() {
                                     width={500}
                                     height={300}
                                 />
-                            </div>
+                            </motion.div>
                             <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">Hospital Management</div>
                             <div className="text-md pt-1 px-1">
                                 The Hospital Management System (HMS) is a robust, web-based solution designed to manage the comprehensive operations of a hospital or clinic. This system aims to streamline and digitize the administrative, clinical, and financial functions of a healthcare facility, improving efficiency, reducing errors, and enhancing the overall quality of patient care. The primary objective of the Hospital Management System is to provide a centralized platform that automates the manual processes involved in hospital administration. It reduces the burden on staff, enables better resource utilization, and ensures quick and secure access to patient data.
@@ -59,7 +59,7 @@ export default function Projects() {
 
                         {/* Project 3 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
-                            <div className="w-full">
+                            <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
                                     src="/Portfolio/kd.png"
@@ -67,7 +67,7 @@ export default function Projects() {
                                     width={500}
                                     height={300}
                                 />
-                            </div>
+                            </motion.div>
                             <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">KD Tree</div>
                             <div className="text-md pt-1 px-1">
                                 C++, Data Structure and Algorithms, KD-Tree, KNN, Median of Medians – Implemented a KDTree in C++ to efficiently find the nearest k d-dimensional points to a specified d-dimensional point with an average time complexity of O(klogk*dlogn). – Achieved a creation time complexity of O(d*nlogn) from an array or vector using algorithms like Median of Medians. Priority Queue was used to perform the search of k Nearest Neighbour to a point.

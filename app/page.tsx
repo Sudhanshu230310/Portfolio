@@ -15,8 +15,8 @@ export default function Home() {
         initial={{ visibility: "visible" }}
         animate={{ display: "none", transition: { duration: 2, ease: "easeInOut" } }}
       >
-        <motion.div
-          className="md:text-4xl text-xl font-semibold text-white"
+        <motion.div 
+          className="md:text-4xl text-2xl font-semibold text-white"
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2, duration: 2,ease:"easeOut" } }}
         >
