@@ -18,23 +18,23 @@ export default function NavBar(){
             <motion.div initial={{y:-20,opacity:0}} animate={{y:0,opacity:1,transition:{duration:1,delay:2,}}} className="md:text-2xl font-serif text-xl cursor-pointer"><Link to="main" spy={true} smooth={true} offset={0} duration={500}>
                         Portfolio
                     </Link></motion.div>
-            <motion.div initial={{y:-20,opacity:0}} animate={{y:0,opacity:1,transition:{duration:1,delay:2}}} className="md:flex justify-center items-center gap-6 font-light hidden">
-                <motion.div className="cursor-pointer">
+            <motion.div initial={{y:-20,opacity:0}} animate={{y:0,opacity:1,transition:{duration:1,delay:2}}} className="md:flex justify-center items-center gap-6 font-semibold hidden">
+                <motion.div whileHover={{ scale:1.1,color:"#40B5AD" }} className="cursor-pointer">
                     <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
                         About
                     </Link>
                 </motion.div>
-                <motion.div className="cursor-pointer">
+                <motion.div whileHover={{ scale:1.1,color:"#40B5AD" }}  className="cursor-pointer">
                     <Link to="skill" spy={true} smooth={true} offset={0} duration={500}>
                         Skills
                     </Link>
                 </motion.div>
-                <motion.div className="cursor-pointer">
+                <motion.div whileHover={{ scale:1.1,color:"#40B5AD" }}  className="cursor-pointer">
                    <Link to="project" spy={true} smooth={true} offset={0} duration={500}>
                         Projects
                     </Link>
                 </motion.div>
-                <motion.div className="cursor-pointer">
+                <motion.div whileHover={{ scale:1.1,color:"#40B5AD" }}  className="cursor-pointer">
                    <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
                         Contact
                     </Link>

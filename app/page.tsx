@@ -13,17 +13,12 @@ export default function Home() {
       <motion.div
         className="w-screen h-screen bg-black flex justify-center items-center"
         initial={{ visibility: "visible" }}
-        animate={{ display: "none", transition: { duration: 2, ease: "easeInOut" } }}
+        animate={{ display: "none", transition: { duration: 4, ease: "easeOut" } }}
       >
-        <motion.div
-          className="md:text-3xl text-xl font-semibold text-white"
-          initial={{ y: -20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1, transition: { delay: 0.5, duration: 0.5 } }}
-        >
-          Full Stack Developer | DevOps
-        </motion.div>
+        <TypewriterLine text="Full Stack Developer | DevOps" />
+          
       </motion.div>
-      <motion.div initial={{ display: "none" }} animate={{ display: "block", transition: { delay: 2 } }}>
+      <motion.div initial={{ display: "none" }} animate={{ display: "block", transition: { delay: 4,duration:0.5,ease:"easeIn" } }}>
         <NavBar />
         <Main />
         <AboutMe />
@@ -34,3 +29,42 @@ export default function Home() {
     </>
   );
 }
+
+
+const TypewriterLine = ({ text }:{text:string}) => {
+  const container = {
+    hidden: { opacity: 1 },      
+    visible: {
+      opacity: 1,
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const child = {
+    hidden: { opacity: 0, y: -10 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { ease: "easeOut", duration: 0.3 },
+    },
+  };
+
+  return (
+    <motion.div
+      className="md:text-4xl text-white text-2xl font-semibold flex"
+      variants={container}
+      initial="hidden"
+      animate="visible"
+    >
+      {Array.from(text).map((char, i) => (
+        <motion.span key={i} variants={child}>
+          {/* @ts-ignore */}
+          {char === " " ? "\u00A0" : char}
+        </motion.span>
+      ))}
+    </motion.div>
+  );
+};
