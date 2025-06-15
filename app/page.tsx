@@ -61,7 +61,6 @@ const TypewriterLine = ({ text }:{text:string}) => {
     >
       {Array.from(text).map((char, i) => (
         <motion.span key={i} variants={child}>
-          {/* @ts-ignore */}
           {char === " " ? "\u00A0" : char}
         </motion.span>
       ))}
