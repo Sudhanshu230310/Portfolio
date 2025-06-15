@@ -3,13 +3,13 @@ import { motion } from "motion/react"
 export default function Projects() {
     return (
         <>
-            <motion.div id="project" className="bg-black w-screen min-h-screen sm:px-28 flex flex-col justify-center items-center gap-20 lg:gap-0">
-                <div className="h-[650px] rounded-3xl xl:w-7xl md:w-3xl sm:w-xl w-xs mt-12 flex flex-col px-4 py-4">
+            <motion.div id="project" className=" w-screen min-h-screen sm:px-28 bg-black flex flex-col justify-center items-center gap-20 lg:gap-0">
+                <div className="h-[650px] px-16 sm:px-16 rounded-3xl xl:w-7xl w-screen mt-12 flex flex-col  py-4 bg-black">
                     <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="sm:text-5xl text-4xl font-bold text-white pl-2 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
-                        <div className="flex gap-2"><div className="text-blue-500">My</div><div>Projects</div></div>
+                        <div className="w-full flex gap-2"><div className="text-blue-500">My</div><div>Projects</div></div>
                         <div className="lg:hidden text-sm">(right scroll for more)</div>
                     </motion.div>
-                    <div className="w-full h-full lg:grid lg:grid-cols-3 flex lg:gap-6 gap-2 text-white overflow-auto">
+                    <div className="w-full h-full lg:grid lg:grid-cols-3 flex lg:gap-6 gap-2 text-white overflow-auto ">
 
                         {/* Project 1 */}
                         <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
@@ -18,7 +18,7 @@ export default function Projects() {
                                     className="rounded-2xl"
                                     src="/Portfolio/Checkers.jpg"
                                     alt="Checkers Game"
-                                    width={500}
+                                    width={700}
                                     height={300}
                                 />
                             </motion.div>
