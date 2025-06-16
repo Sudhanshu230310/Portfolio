@@ -3,8 +3,8 @@ import { motion } from "motion/react"
 export default function Projects() {
     return (
         <>
-            <motion.div id="project" className=" w-screen min-h-screen sm:px-28 bg-black flex flex-col justify-center items-center gap-20 lg:gap-0">
-                <div className="h-[650px] px-16 sm:px-16 rounded-3xl xl:w-7xl w-screen mt-12 flex flex-col  py-4 bg-black">
+            <motion.div id="project" className=" w-screen min-h-screen  bg-black flex flex-col justify-center items-center gap-20 lg:gap-0">
+                <div className="h-[650px] px-10 sm:px-16 rounded-3xl xl:w-7xl w-full mt-12 flex flex-col  py-4 bg-black">
                     <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="sm:text-5xl text-4xl font-bold text-white pl-2 md:pt-8 md:pb-8 flex gap-2 flex-col pt-4 pb-2 ">
                         <div className="w-full flex gap-2"><div className="text-blue-500">My</div><div>Projects</div></div>
                         <div className="lg:hidden text-sm">(right scroll for more)</div>
@@ -18,12 +18,12 @@ export default function Projects() {
                                     className="rounded-2xl"
                                     src="/Portfolio/Checkers.jpg"
                                     alt="Checkers Game"
-                                    width={700}
-                                    height={300}
+                                    width={900}
+                                    height={500}
                                 />
                             </motion.div>
-                            <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">Checkers Game</div>
-                            <div className="text-md pt-1 px-1">
+                            <div className="xs:text-3xl text-2xl pt-6 px-1 font-bold">Checkers Game</div>
+                            <div className="text-md pt-2 px-1">
                                 This project is a complete software simulation of the classic Checkers (or Draughts) board game, developed as part of a Data Structures and Algorithms (DSA) course. It aims to merge the theoretical foundations of DSA with a practical, interactive application. The primary focus is on designing the game engine using efficient data structures and algorithms to handle the rules of the game, player interaction, and game state management. This project enhances understanding of DSA concepts through real-world implementation and provides a robust foundation for further enhancements such as AI opponents or GUI development.
                             </div>
                             <div className="py-3">
@@ -40,12 +40,12 @@ export default function Projects() {
                                     className="rounded-2xl"
                                     src="/Portfolio/Hospital.avif"
                                     alt="Hospital Management"
-                                    width={500}
-                                    height={300}
+                                    width={900}
+                                    height={500}
                                 />
                             </motion.div>
-                            <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">Hospital Management</div>
-                            <div className="text-md pt-1 px-1">
+                            <div className="xs:text-3xl text-2xl pt-6 px-1 font-bold">Hospital Management</div>
+                            <div className="text-md pt-1 px-2">
                                 The Hospital Management System (HMS) is a robust, web-based solution designed to manage the comprehensive operations of a hospital or clinic. This system aims to streamline and digitize the administrative, clinical, and financial functions of a healthcare facility, improving efficiency, reducing errors, and enhancing the overall quality of patient care. The primary objective of the Hospital Management System is to provide a centralized platform that automates the manual processes involved in hospital administration. It reduces the burden on staff, enables better resource utilization, and ensures quick and secure access to patient data.
                             </div>
                             <div className="py-3">
@@ -64,12 +64,12 @@ export default function Projects() {
                                     className="rounded-2xl"
                                     src="/Portfolio/kd.png"
                                     alt="KD Tree Project"
-                                    width={500}
-                                    height={300}
+                                    width={900}
+                                    height={500}
                                 />
                             </motion.div>
-                            <div className="xs:text-3xl text-2xl pt-3 px-1 font-bold">KD Tree</div>
-                            <div className="text-md pt-1 px-1">
+                            <div className="xs:text-3xl text-2xl pt-6 px-1 font-bold">KD Tree</div>
+                            <div className="text-md pt-2 px-1">
                                 C++, Data Structure and Algorithms, KD-Tree, KNN, Median of Medians – Implemented a KDTree in C++ to efficiently find the nearest k d-dimensional points to a specified d-dimensional point with an average time complexity of O(klogk*dlogn). – Achieved a creation time complexity of O(d*nlogn) from an array or vector using algorithms like Median of Medians. Priority Queue was used to perform the search of k Nearest Neighbour to a point.
                             </div>
                             <div className="py-3">
