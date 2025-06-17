@@ -11,7 +11,7 @@ export default function AboutMe() {
                     <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="text-white pl-12 pt-12 md:text-5xl text-4xl font-bold flex gap-2">
                         <div>About </div><div className="text-blue-500">Me</div>
                     </motion.div>
-                    <div className="flex justify-between items-center mt-10 px-12 gap-4">
+                    <div className="flex justify-between items-center mt-16 px-12 gap-4">
                         <motion.div
                             whileHover={{ y: [30, -30, 30], transition: { repeat: Infinity, repeatType: "reverse", duration: 2, ease: "easeInOut" } }}
                             animate={{ y: 0 }}

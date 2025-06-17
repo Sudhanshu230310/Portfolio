@@ -12,11 +12,11 @@ export default function Projects() {
                     <div className="w-full h-full lg:grid lg:grid-cols-3 flex lg:gap-6 gap-2 text-white overflow-auto ">
 
                         {/* Project 1 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-6 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
                             <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
-                                    src="/Portfolio/Checkers.jpg"
+                                    src="/Portfolio/checkers.png"
                                     alt="Checkers Game"
                                     width={900}
                                     height={500}
@@ -34,11 +34,11 @@ export default function Projects() {
                         </div>
 
                         {/* Project 2 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-6 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
                             <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
-                                    src="/Portfolio/Hospital.avif"
+                                    src="/Portfolio/hospital1.png"
                                     alt="Hospital Management"
                                     width={900}
                                     height={500}
@@ -58,7 +58,7 @@ export default function Projects() {
                         </div>
 
                         {/* Project 3 */}
-                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-4 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
+                        <div className="h-full w-full border border-gray-600 rounded-2xl px-3 pt-6 bg-neutral-900 shrink-0 flex flex-col overflow-auto">
                             <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
