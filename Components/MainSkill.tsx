@@ -9,8 +9,8 @@ const phraseVariants = {
 };
 
 const phrases = [
-  'Web Developer',
   'DevOps enthusiast',
+  'Web Developer',
   'Competitive Coder',
 ];
 
