@@ -12,7 +12,7 @@ export default function Main() {
                         <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { duration: 1, delay: 2.8 } }} className="md:text-xl text-xl flex justify-center items-center pl-10 md:pl-0 font-sans "><AnimatedLine/></motion.div>
                         <div className="text-xl">
                             <a target="_blank" href="mailto:2023meb1387@iitrpr.ac.in"><button className="border rounded-2xl cursor-pointer bg-blue-800 py-1 border-gray-400 px-3">Contact Me</button></a>
-                            <a href="/Resume.pdf" download="Sudhanshu_2027_Resume"><button className="border cursor-pointer rounded-2xl bg-blue-800 py-1 border-gray-400 px-3 ml-6">Resume</button></a>
+                            <a href="/Resume.pdf" download="Sudhanshu_2027_Resume.pdf"><button className="border cursor-pointer rounded-2xl bg-blue-800 py-1 border-gray-400 px-3 ml-6">Resume</button></a>
                         </div>
                     </div>
                     <motion.div animate={{ y: [0, -16, 0], transition: { repeat: Infinity, repeatType: "reverse", duration: 3, ease: "linear" } }} className="text-white md:w-72 md:h-72 rounded-full overflow-hidden w-60 h-60 justify-center items-center shadow-gray-600 shadow-lg border border-gray-700 md:mt-20 translate-y-8 md:-translate-y-4">
