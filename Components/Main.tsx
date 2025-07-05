@@ -17,7 +17,7 @@ export default function Main() {
                     </div>
                     <motion.div animate={{ y: [0, -16, 0], transition: { repeat: Infinity, repeatType: "reverse", duration: 3, ease: "linear" } }} className="text-white md:w-72 md:h-72 rounded-full overflow-hidden w-60 h-60 justify-center items-center shadow-gray-600 shadow-lg border border-gray-700 md:mt-20 translate-y-8 md:-translate-y-4">
                         {/* <Person /> */}
-                        <img  src="/Portfolio/profile4.png" alt="Profile img" width={300} height={300} className="  w-full h-auto" />
+                        <img  src="/Portfolio/profile3.jpeg" alt="Profile img" width={300} height={300} className="md:-translate-y-24 -translate-y-16 w-full h-auto" />
                     </motion.div>
                 </div>
 
