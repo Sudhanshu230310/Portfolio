@@ -28,10 +28,10 @@ export default function Projects() {
                             <div className="text-md pt-2 px-1">
                                 This project is a complete software simulation of the classic Checkers (or Draughts) board game, developed as part of a Data Structures and Algorithms (DSA) course. It aims to merge the theoretical foundations of DSA with a practical, interactive application. The primary focus is on designing the game engine using efficient data structures and algorithms to handle the rules of the game, player interaction, and game state management. This project enhances understanding of DSA concepts through real-world implementation and provides a robust foundation for further enhancements such as AI opponents or GUI development.
                             </div>
-                            <div className="py-3">
+                            <div className="py-3 gap-1 flex flex-wrap">
                                 <button className="border border-gray-500 px-2 py-1 rounded-2xl">Trees</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl lg:ml-2 mt-2 mx-2">C++</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl mb-4">Classes</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl">C++</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">Oops</button>
                             </div>
                         </div>
 
@@ -52,12 +52,12 @@ export default function Projects() {
                             <div className="text-md pt-1 px-2">
                                 The Hospital Management System is a responsive and user-friendly web application designed to streamline hospital operations with real-life applicability. Built with a modern tech stack, it efficiently stores and manages all essential data while offering a clean, intuitive UI for smooth user interaction. The system ensures fast performance, scalability, and practical utility for real-world healthcare needs.
                             </div>
-                            <div className="py-3">
+                            <div className="py-3 gap-1 flex flex-wrap">
                                 <button className="border border-gray-500 px-2 py-1 rounded-2xl">React</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl lg:ml-2 mt-2 ml-2">JavaScript</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl lg:ml-2 mt-2 ml-2">MongoDb</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl lg:ml-2 mt-2 xs:ml-2 ml-0">Express</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl mt-2 mb-4 lg:ml-0 ml-2">Redux</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">JavaScript</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">MongoDb</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">Express</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl">Redux</button>
                             </div>
                         </div>
 
@@ -78,10 +78,9 @@ export default function Projects() {
                             <div className="text-md pt-2 px-1">
                                 C++, Data Structure and Algorithms, KD-Tree, KNN, Median of Medians – Implemented a KDTree in C++ to efficiently find the nearest k d-dimensional points to a specified d-dimensional point with an average time complexity of O(klogk*dlogn). – Achieved a creation time complexity of O(d*nlogn) from an array or vector using algorithms like Median of Medians. Priority Queue was used to perform the search of k Nearest Neighbour to a point.
                             </div>
-                            <div className="py-3">
+                            <div className="py-3 gap-1 flex flex-wrap">
                                 <button className="border border-gray-500 px-2 py-1 rounded-2xl">C++</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl lg:ml-2 mt-2 mx-2">DSA</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl mb-4">Classes</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl">DSA</button>
                             </div>
                         </div>
 
