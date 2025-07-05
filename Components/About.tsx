@@ -8,7 +8,7 @@ export default function AboutMe() {
         <>
             <motion.div id="about" className="bg-black w-screen min-h-screen sm:px-28 flex  flex-col justify-center items-center gap-20 lg:gap-0">
                 <div className=" rounded-3xl w-full md:px-6 px-0 xl:w-7xl h-[600px]">
-                    <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="text-white pl-12 pt-12 md:text-5xl text-4xl font-bold flex gap-2">
+                    <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1, transition:{duration:2}}} className="text-white pl-12 pt-16 md:text-5xl text-4xl font-bold flex gap-2">
                         <div>About </div><div className="text-blue-500">Me</div>
                     </motion.div>
                     <div className="flex justify-between items-center mt-16 px-12 gap-4">
