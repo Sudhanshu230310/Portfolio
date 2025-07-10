@@ -40,24 +40,27 @@ export default function Projects() {
                             <motion.div whileHover={{scale:1.1}} className="w-full">
                                 <img
                                     className="rounded-2xl"
-                                    src="/Portfolio/hospital1.png"
+                                    src="/Portfolio/cosketch.png"
                                     alt="Hospital Management"
                                     width={900}
                                     height={500}
                                 />
                             </motion.div>
                             <motion.div className="xs:text-3xl text-2xl pt-6 px-1 font-bold">
-                                <motion.span whileHover={{scale:1.05,color:"#3b82f6" }} className="cursor-pointer">CLININTEL</motion.span>
+                                <motion.span whileHover={{scale:1.05,color:"#3b82f6" }} className="cursor-pointer">CoSketch</motion.span>
                             </motion.div>
                             <div className="text-md pt-1 px-2">
-                                The Hospital Management System is a responsive and user-friendly web application designed to streamline hospital operations with real-life applicability. Built with a modern tech stack, it efficiently stores and manages all essential data while offering a clean, intuitive UI for smooth user interaction. The system ensures fast performance, scalability, and practical utility for real-world healthcare needs.
+                                Developed a real-time collaborative drawing application enabling multiple users to sketch together with live updates and session persistence.
+                                Built with React, TypeScript, and HTML5 Canvas, integrating WebSocket connections for sub-100ms synchro-nization of drawing events.
+                                Designed a Node.js/Express API and WebSocket server for room management, message broadcasting, and user
+                                presence, backed by a PostgreSQL database.
                             </div>
                             <div className="py-3 gap-1 flex flex-wrap">
                                 <button className="border border-gray-500 px-2 py-1 rounded-2xl">React</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">JavaScript</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">MongoDb</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">TypeScript</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl ">Postgress</button>
                                 <button className="border border-gray-500 px-2 py-1 rounded-2xl ">Express</button>
-                                <button className="border border-gray-500 px-2 py-1 rounded-2xl">Redux</button>
+                                <button className="border border-gray-500 px-2 py-1 rounded-2xl">WebSocket</button>
                             </div>
                         </div>
 
